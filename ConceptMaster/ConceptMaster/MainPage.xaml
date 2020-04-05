@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:C.Pages="clr-namespace:ConceptMaster.C.Pages"
+            mc:Ignorable="d"
+             x:Class="ConceptMaster.MainPage" Title="World PhotoGraphy" BackgroundImageSource="photography.jpg">
+
+    <TabbedPage.Children>
+        <C.Pages:FindPage/>
+        <C.Pages:ChatsPage/>
+        <C.Pages:GroupsPage/>
+        
+    </TabbedPage.Children>
+
+</TabbedPage>

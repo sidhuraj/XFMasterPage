@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ConceptMaster.C.Pages.GroupedPage" >
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Enter">
+
+            <ContentPage.Content>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="FLAGS" FontSize="Large" HorizontalOptions="Center"/>
+                    <Image Source= "icon.png" HorizontalOptions="CenterAndExpand"/>
+                    <ListView x:Name="listtarget" HasUnevenRows="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <ViewCell.View>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="{Binding IconGroup}" HeightRequest="70" WidthRequest="70"/>
+                                            <Label Text="{Binding GroupNames}" TextColor="Black"/>
+                                        </StackLayout>
+                                    </ViewCell.View>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+
+            
+
+
+
+
+
+
+       
+</MasterDetailPage>

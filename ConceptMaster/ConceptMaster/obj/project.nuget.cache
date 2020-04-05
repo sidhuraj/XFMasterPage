@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cr7IlUCsET9DBU1+G1ifK46vGE0ppvy4cWdMlB5hz7Ot9BLcChqmKK1q0QZ18JWyFgbIBbzE+NbBWxwPsJq1tg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santosh\\source\\repos\\ConceptMaster\\ConceptMaster\\ConceptMaster\\ConceptMaster.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santosh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\xamarin.essentials\\1.2.0\\xamarin.essentials.1.2.0.nupkg.sha512",
+    "C:\\Users\\santosh\\.nuget\\packages\\xamarin.forms\\4.2.0.709249\\xamarin.forms.4.2.0.709249.nupkg.sha512"
+  ],
+  "logs": []
+}
